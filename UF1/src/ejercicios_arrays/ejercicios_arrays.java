@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package uf1;
+package ejercicios_arrays;
 
 import java.util.Scanner;
 
@@ -20,13 +20,23 @@ public class ejercicios_arrays {
     num=new int[6];
     
     
-        introducriDatosarray(num);
-        
+    introducriDatosarray(num);
+         
+    int positivo=0,negativo=0;
     
-        
-    
-        
-    int minimo,maximo;
+        for (int i = 0; i <num.length; i++) {
+            if(num[i]>=0){
+                System.out.println("Es positivo");
+                positivo=num[i]+positivo;
+            }
+            if(num[i]<0){
+                System.out.println("Es negativo");
+                negativo=num[i]+negativo;
+            
+            }
+            System.out.println("La suma de positivos es de "+positivo);
+            System.out.println("La suma de negativos es de "+negativo);
+        }
     
     
     
