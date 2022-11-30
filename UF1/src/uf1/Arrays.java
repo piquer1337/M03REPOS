@@ -6,7 +6,15 @@ package uf1;
 
 /**
  *
- * @author semo3415
+ * @author semo3415public static void mostrarArray(int[]valores){
+    for (int i = 0; i < valores.length; i++) {
+            System.out.println("Posicio "+i+" Contiene -> "+valores[i]);
+            
+        }
+    
+    //git modificado desde casa
+    
+    }
  */
 public class Arrays {
     
