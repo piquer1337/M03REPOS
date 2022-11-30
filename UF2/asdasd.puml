@@ -1,0 +1,23 @@
+@startuml
+class PackageMath.Utilitats
+class java.util.Scanner
+class uf2.EncontrarMaximoFuncion
+class uf2.MayorEdad
+class uf2.UF2
+class uf2.echa_correcta
+class uf2.ej6
+class uf2.ejercicio5
+class uf2.formu
+class uf2.funcionmultipl
+class uf2.recursivas.HipHurra
+class uf2.recursivas.recursivos
+class uf2.sumaN
+uf2.EncontrarMaximoFuncion ..> java.util.Scanner
+uf2.MayorEdad ..> java.util.Scanner
+uf2.echa_correcta ..> java.util.Scanner
+uf2.ej6 ..> java.util.Scanner
+uf2.ejercicio5 ..> PackageMath.Utilitats
+uf2.ejercicio5 ..> java.util.Scanner
+uf2.formu ..> java.util.Scanner
+uf2.sumaN ..> java.util.Scanner
+@enduml
