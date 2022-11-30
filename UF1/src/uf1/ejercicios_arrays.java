@@ -27,9 +27,24 @@ public class ejercicios_arrays {
     
         
     int minimo,maximo;
-    
-    
-    
+    minimo=num[0];//si solo leo uno este seguro que es el minimo
+    maximo=num[0];//si solo leo uno seguro que es el maximo
+        for (int i = 0; i < num.length; i++) {
+            
+            if(num[i]>maximo){
+            
+            maximo=num[i];
+            
+            }
+            if(num[i]<minimo){
+            
+            minimo=num[i];
+            
+            }
+            
+        }
+        System.out.println("El maximo es "+maximo);
+        System.out.println("Y el minimo es "+minimo);
     
     }
     
