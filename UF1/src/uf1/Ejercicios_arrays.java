@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package uf1;
+package ejercicios_arrays;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author semo3415
  */
-public class ejercicios_arrays {
+public class Ejercicios_arrays{
     
     public static void main(String[] args){
     Scanner sc= new Scanner(System.in);
@@ -20,9 +20,11 @@ public class ejercicios_arrays {
     num=new int[6];
     
     
-        introducriDatosarray(num);
-        
+    introducriDatosarray(num);
+         
+    int positivo=0,negativo=0;
     
+<<<<<<< HEAD:UF1/src/uf1/ejercicios_arrays.java
         
     
         
@@ -39,12 +41,30 @@ public class ejercicios_arrays {
             if(num[i]<minimo){
             
             minimo=num[i];
+=======
+        for (int i = 0; i <num.length; i++) {
+            if(num[i]>=0){
+                
+                positivo=num[i]+positivo;
+            }
+            if(num[i]<0){
+                
+                negativo=num[i]+negativo;
+>>>>>>> 12042a2f68581f1e72988fe80e5e595e84f40f88:UF1/src/uf1/Ejercicios_arrays.java
             
             }
             
         }
+<<<<<<< HEAD:UF1/src/uf1/ejercicios_arrays.java
         System.out.println("El maximo es "+maximo);
         System.out.println("Y el minimo es "+minimo);
+=======
+        System.out.println("La suma de positivos es de "+positivo);
+            System.out.println("La suma de negativos es de "+negativo);
+    
+    
+    
+>>>>>>> 12042a2f68581f1e72988fe80e5e595e84f40f88:UF1/src/uf1/Ejercicios_arrays.java
     
     }
     
